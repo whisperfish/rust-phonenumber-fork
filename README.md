@@ -17,8 +17,6 @@ Example
 The following example parses, validates and formats the given phone number.
 
 ```rust,no_run
-extern crate phonenumber;
-
 use phonenumber::Mode;
 use std::env;
 

@@ -12,10 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-use either::*;
 use std::fmt;
 use std::ops::Deref;
 use std::str::FromStr;
+
+use either::*;
+use serde::{Serialize, Deserialize};
 
 use crate::carrier::Carrier;
 use crate::country;
