@@ -19,9 +19,9 @@ use std::io::{BufReader, Cursor};
 use std::path::Path;
 use std::sync::{Arc, Mutex};
 
-use bincode;
 use bincode::Options;
 use fnv::FnvHashMap;
+use lazy_static::lazy_static;
 use regex_cache::{CachedRegex, CachedRegexBuilder, RegexCache};
 
 use crate::error;

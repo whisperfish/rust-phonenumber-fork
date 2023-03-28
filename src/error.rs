@@ -12,6 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+use quick_xml as xml;
 use thiserror::Error;
 
 /// Metadata loading errors.

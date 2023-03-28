@@ -16,6 +16,7 @@
 
 use fnv::{FnvHashMap, FnvHashSet};
 use itertools::Itertools;
+use lazy_static::lazy_static;
 use regex::{Regex, RegexBuilder};
 
 /// The minimum length of the National Significant Number.

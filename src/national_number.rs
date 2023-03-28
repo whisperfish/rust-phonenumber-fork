@@ -14,6 +14,9 @@
 
 use std::fmt;
 
+use serde::Deserialize;
+use serde::Serialize;
+
 /// The national number part of a phone number.
 #[derive(Copy, Clone, Eq, PartialEq, Serialize, Deserialize, Hash, Debug)]
 pub struct NationalNumber {

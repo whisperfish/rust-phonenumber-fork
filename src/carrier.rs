@@ -15,6 +15,8 @@
 use std::fmt;
 use std::ops::Deref;
 
+use serde::{Serialize, Deserialize};
+
 /// A phone number carrier.
 #[derive(Clone, Eq, PartialEq, Serialize, Deserialize, Hash, Debug)]
 pub struct Carrier(pub(crate) String);

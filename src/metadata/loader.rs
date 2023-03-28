@@ -15,9 +15,12 @@
 use std::io::BufRead;
 use std::str;
 
-use crate::xml::events::attributes::Attribute;
-use crate::xml::events::{self, Event};
-use crate::xml::Reader;
+use quick_xml as xml;
+use serde::{Serialize, Deserialize};
+
+use xml::events::attributes::Attribute;
+use xml::events::{self, Event};
+use xml::Reader;
 
 use crate::error;
 

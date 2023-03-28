@@ -17,6 +17,8 @@
 use crate::error;
 use std::str;
 
+use serde::{Serialize, Deserialize};
+
 #[derive(Copy, Clone, Eq, PartialEq, Serialize, Deserialize, Hash, Debug)]
 pub struct Code {
     /// The country code value.
